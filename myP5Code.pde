@@ -1,8 +1,10 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
-    background(255,255,255,100);
+    background(255, 252, 127);
 }
+
+
 
 
 //🟢Draw Procedure - Runs on Repeat
@@ -11,6 +13,28 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  //red top
+  fill(255, 0, 0);
+  stroke (0);
+  strokeWeight (8);
+  arc(200, 200, 200, 200, PI, TWO_PI);
+  
+  //white bottom
+  fill(255); 
+  arc(200, 200, 200, 200, 0, PI);
+  
+  //dividing line
+  strokeWeight(10); 
+  line(100, 200, 300, 200);
+  
+  //black button 
+  fill(0);
+  strokeWeight(10);
+  ellipse(200, 200, 50, 50);
+  
+  //white button
+  fill(255);
+  ellipse(200, 200, 48, 48)
   
 
   
